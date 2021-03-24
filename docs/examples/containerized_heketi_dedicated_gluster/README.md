@@ -281,7 +281,7 @@ A sample heketi-deployment.yaml is included below.
 heketi-deployment.yaml
 ```
 kind: Deployment
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 metadata:
   name: heketi-deployment
   labels:

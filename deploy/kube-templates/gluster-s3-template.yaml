@@ -31,7 +31,7 @@ items:
       description: Defines how to deploy gluster s3 object storage
   spec:
     selector:
-      matchLables:
+      matchLabels:
         glusterfs: s3-pod
     replicas: 1
     template:

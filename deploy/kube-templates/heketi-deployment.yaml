@@ -27,7 +27,7 @@ metadata:
     description: Defines how to deploy Heketi
 spec:
   selector:
-    matchLables:
+    matchLabels:
       glusterfs: heketi-pod
       heketi: pod
   replicas: 1

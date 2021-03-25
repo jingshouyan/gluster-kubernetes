@@ -10,7 +10,7 @@ metadata:
     tags: glusterfs
 spec:
   selector:
-    matchLables:
+    matchLabels:
       glusterfs: pod
       glusterfs-node: pod
   template:

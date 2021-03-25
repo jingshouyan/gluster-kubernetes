@@ -9,6 +9,10 @@ metadata:
     description: GlusterFS DaemonSet
     tags: glusterfs
 spec:
+  selector:
+    matchLables:
+      glusterfs: pod
+      glusterfs-node: pod
   template:
     metadata:
       name: glusterfs

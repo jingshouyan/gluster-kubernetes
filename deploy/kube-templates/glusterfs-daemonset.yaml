@@ -24,7 +24,7 @@ spec:
         storagenode: glusterfs
       hostNetwork: true
       containers:
-      - image: gluster/gluster-centos:latest
+      - image: jingshouyan/gluster-centos:7.1
         imagePullPolicy: IfNotPresent
         name: glusterfs
         env:

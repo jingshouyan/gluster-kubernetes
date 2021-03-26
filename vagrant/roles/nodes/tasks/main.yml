@@ -22,7 +22,7 @@
   - custom_registry_gcr | default(false)
 
 - name: Pull GlusterFS Docker image
-  command: docker pull gluster/gluster-centos:latest
+  command: docker pull jingshouyan/gluster-centos:7.1
   register: task_result
   until: task_result.rc == 0
   retries: 5

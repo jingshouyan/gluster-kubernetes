@@ -17,7 +17,7 @@ metadata:
         storagenode: glusterfs
       hostNetwork: true
       containers:
-      - image: gluster/gluster-centos:gluster4u0_centos7
+      - image: gluster/gluster-centos:latest
         imagePullPolicy: IfNotPresent
         name: glusterfs
         volumeMounts:
@@ -43,7 +43,7 @@ metadata:
         storagenode: glusterfs
       hostNetwork: true
       containers:
-      - image: gluster/gluster-centos:gluster4u0_centos7
+      - image: gluster/gluster-centos:latest
         imagePullPolicy: IfNotPresent
         name: glusterfs
         volumeMounts:
